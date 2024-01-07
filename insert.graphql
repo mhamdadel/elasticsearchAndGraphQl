@@ -1,0 +1,54 @@
+POST /articles/_doc/1
+{
+  "title": "Sample Title 9",
+  "content": "Sample content for article 9.",
+  "keywords": ["keyword88", "keyword99"],
+  "author": {
+    "id": "author9",
+    "name": "Author Name 9"
+  }
+}
+
+POST /articles/_doc/2
+{
+  "title": "Another Title",
+  "content": "Content for another article.",
+  "keywords": ["keyword1", "keyword2"],
+  "author": {
+    "id": "author2",
+    "name": "Author Name 2"
+  }
+}
+
+POST /articles/_doc/3
+{
+  "title": "Elasticsearch Basics",
+  "content": "Introduction to Elasticsearch and its features.",
+  "keywords": ["search", "database"],
+  "author": {
+    "id": "author1",
+    "name": "Author Name 1"
+  }
+}
+
+POST /articles/_doc/4
+{
+  "title": "Node.js and Elasticsearch Integration",
+  "content": "How to integrate Elasticsearch with Node.js.",
+  "keywords": ["Node.js", "integration"],
+  "author": {
+    "id": "author3",
+    "name": "Author Name 3"
+  }
+}
+
+POST /articles/_doc/5
+{
+  "title": "Advanced Elasticsearch Queries",
+  "content": "Exploring advanced search queries in Elasticsearch.",
+  "keywords": ["query", "advanced"],
+  "author": {
+    "id": "author4",
+    "name": "Author Name 4"
+  }
+}
